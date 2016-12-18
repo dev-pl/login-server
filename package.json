@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "node --harmony cluster.js"
+    "start": "npm install;node --harmony cluster.js"
   },
   "dependencies": {
     "cluster": "^0.7.7",
